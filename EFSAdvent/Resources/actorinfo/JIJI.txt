@@ -1,0 +1,19 @@
+JIJI (Old Man)
+Can be a range of different NPCs.
+
+Variable 1:
+
+Variable 2: Actor Sprite
+0 = Old man in green shirt.
+1 = Fortune Teller.
+2 = Princess Zelda.
+3 = Man with blue tufty hair.
+4 = Little girl.
+5 = Woman in blue and red.
+6 = Fat woman in purple.
+7 = Zora in water.
+
+Variable 3:
+
+Variable 4:
+What text actor says.

@@ -1,0 +1,9 @@
+OKTA (Oktarok)
+
+Life	4
+atcp	2
+atcn	0
+dstr	1
+dasu	3
+efsz	1
+voic	0

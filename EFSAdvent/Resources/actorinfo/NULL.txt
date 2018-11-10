@@ -1,0 +1,3 @@
+NULL (Nothing)
+
+Just like it says, nothing.

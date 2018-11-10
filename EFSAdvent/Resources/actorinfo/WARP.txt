@@ -1,0 +1,10 @@
+WARP (Warp)
+
+Variable 1:
+Which layer the warp takes the players to
+
+Variable 2:
+The X coordinate players arrive at
+
+Variable 3:
+The Y coordinate players arrive at

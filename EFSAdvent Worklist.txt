@@ -1,0 +1,31 @@
+Top line of pixels is cut off?
+
+undo doesn't work properly for 2x2 brush
+
+Remove reliance on unused "sprite master sheet"
+
+Controls should be disabled until a level is loaded, e.g. the layer checkboxes as they can cause a crash.
+
+Implement "brushes" using SMP files, and other custom ones?
+
+Support for .bti files and bti actors(BTIN, SIBT)
+
+Display background image appropriate to layer(? This is changed via an actor?)
+
+Add unsafe code with lockbits to draw actor sprites? Is it worth is even for large numbers of actors? Not really, only a 1 second~ delay, but if I'm bored one day...
+
+make possible creation of new maps from scratch? Not worth doing unless I hack a way to add new maps to the game.
+
+add support for different actor sprites depending on the variable, e.g. SWEV_0_0_0_40.png
+
+Changes since ver 1.0
+---------------------
+* If no actor file exists a new one is made. Creation of new rooms with actors is now possible.
+* Worked out the first two map variables. X and Y of starting room.
+* Undo/Redo system implemented for tile changes. 50 steps.
+* Substantialy increased speed at which layers are drawn.
+* Layers can now only be edited while the tilesheet tab is selected.
+* Actors can now be selected by left clicking on their origin marker while the actors tab is selected, the selected actor can be dragged around with the left mouse button.
+* Can now select either a 1x1 or 2x2 tile brush.
+* Saves .csv data when exporting
+* Supports variable actor sprite sizes
